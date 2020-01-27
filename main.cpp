@@ -11,7 +11,7 @@ class Drzewo {
     private:
         string name;
         double height;
-        vector<Galaz> galaz;
+        vector<Galaz*> galaz; // pamietac o skasowaniu obiektow
 };
 
 class Galaz {
